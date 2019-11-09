@@ -12,6 +12,6 @@ public class TestCalculadora {
 	}
 	@Test
 	public void testNOK() {
-		assertEquals(9, c.soma(3, 4));
+		assertNotEquals(9, c.soma(3, 4));
 	}
 }
